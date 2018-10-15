@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qap-jG-kmq">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ekkamai.ttf">
+            <string>EkkamaiStandard-Light</string>
+        </array>
+        <array key="mitrr.ttf">
+            <string>Mitr-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJq-ks-aba">
+                                <rect key="frame" x="8" y="212" width="398" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <string key="text"> ทีมคณะผู้จัดทำโปรแกรม บริการข้อมูลสุนัขจรจัด 
+
+ 1. ศาสตราจารย์ น.สพ.ดร.สถาพร จิตตปาลพงศ์ 
+2. ผู้ช่วยศาสตราจารย์ ดร.วุฒินันท์ รักษาจิตร์
+3. ผู้ช่วยศาสตราจารย์ ดร.ชัยณรงค์ สกุลแถว
+4. อาจารย์ ดร.ศราวรรณ แก้วมงคล 
+5. อาจารย์ น.สพ.ดร.สุชนิทธิ์ งามกาละ 
+6. นายคมสัน สัจจะสถาพร 
+7. นาย อัครพนธ์ เอี้ยวรัตนวดี 
+8. น.ส.นิตยา ปั้นพันธุ์ </string>
+                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="yqf-vs-SU1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="คณะผู้จัดทำ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe4-3l-2sl">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0039215686269999999" green="0.42352941179999998" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7z-IV-sCy">
+                                <rect key="frame" x="51" y="169" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="Qdx-rD-Ghs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2x-GZ-MA2">
+                                <rect key="frame" x="63" y="494" width="257" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="fb"/>
+                                <connections>
+                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9V8-yK-DTC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1886.9565217391305" y="1326.358695652174"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HbV-ya-9BX">
+            <objects>
+                <viewController id="nFL-mV-eOQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fNt-dG-2UU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cV-LB-Zal">
+                                <rect key="frame" x="0.0" y="20" width="414" height="936"/>
+                                <subviews>
+                                    <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8EY-8g-Gke">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejf-X5-C59">
+                                                <rect key="frame" x="8" y="190" width="398" height="532"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">โรคเลปโทสไปโรซิส (Leptospirosis) 
+
+เป็นโรคที่มีการระบาดทั่วทุกพื้นที่ในหลายประเทศหรือที่คนไทยเรียกกันในภาษาชาวบ้านโรคฉี่หนู สาเหตุมาจากการติดเชื้อแบคทีเรียในตระกูลเลปโทสไปราซีอี (Family Leptospiraceae) อาการที่พบในสุนัขแบ่งออกเป็น 2 รูปแบบ  
+
+แบบเฉียบพลัน พบอาการได้ใน 4 ชั่วโมง สุนัขจะมีอาการไข้สูง ซึม ไม่กินอาหาร ตัวสั่น กล้ามเนื้อแข็งตึง อาเจียน ท้องเสีย หายใจหอบ ตาขาวมีสีเหลือง มีเลือดกำเดาไหลออกมา สุนัขป่วยภายภายใน 5-10 วันหลังแสดงอาการ 
+
+แบบเรื้อรัง สุนัขจะมีอาการกินน้ำและปัสสาวะบ่อย ระบบสืบพันธ์ล้มเหลว มีภาวะลูกตายแรกคลอดและแท้งลูกได้  
+
+สามารถป้องกันโรคฉี่หนูได้โดยการฉีดวัคซีนป้องกันไม่ให้สุนัขไปเล่นในบริเวณที่มีน้ำท่วมขังทำความสะอาดบริเวณกรงโดยน้ำยาฆ่าเชื้อ ให้แสงแดดส่องถึงกรงอย่างเพียงพอ </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1000" id="UGm-Ag-Vsd"/>
+                                            <constraint firstAttribute="height" constant="1000" id="dRl-9J-nbU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="8EY-8g-Gke" secondAttribute="bottom" id="HJk-hj-JBn"/>
+                                    <constraint firstAttribute="trailing" secondItem="8EY-8g-Gke" secondAttribute="trailing" id="KJw-Hg-4VO"/>
+                                    <constraint firstItem="8EY-8g-Gke" firstAttribute="top" secondItem="2cV-LB-Zal" secondAttribute="top" id="Mvp-fO-i9h"/>
+                                    <constraint firstAttribute="trailing" secondItem="8EY-8g-Gke" secondAttribute="trailing" id="VRy-MS-fqv"/>
+                                    <constraint firstItem="8EY-8g-Gke" firstAttribute="leading" secondItem="2cV-LB-Zal" secondAttribute="leading" id="eIa-iZ-2MI"/>
+                                    <constraint firstItem="8EY-8g-Gke" firstAttribute="leading" secondItem="2cV-LB-Zal" secondAttribute="leading" id="eYd-gp-3LW"/>
+                                    <constraint firstAttribute="bottom" secondItem="8EY-8g-Gke" secondAttribute="bottom" id="sc9-zl-ufe"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="Lrs-XV-dRw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคเลปโทสไปโรซิส " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vF2-me-BjW">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wei-Mw-Qxx">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="Pgn-tV-f5z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2cV-LB-Zal" firstAttribute="leading" secondItem="YwI-jZ-qiy" secondAttribute="leading" id="9qe-RI-EUk"/>
+                            <constraint firstItem="YwI-jZ-qiy" firstAttribute="bottom" secondItem="2cV-LB-Zal" secondAttribute="bottom" id="G6n-97-rvq"/>
+                            <constraint firstItem="2cV-LB-Zal" firstAttribute="top" secondItem="YwI-jZ-qiy" secondAttribute="top" id="LBF-Zg-fLs"/>
+                            <constraint firstItem="YwI-jZ-qiy" firstAttribute="trailing" secondItem="2cV-LB-Zal" secondAttribute="trailing" id="fOL-CJ-BwF"/>
+                            <constraint firstItem="8EY-8g-Gke" firstAttribute="width" secondItem="fNt-dG-2UU" secondAttribute="width" id="jhN-2u-k1B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YwI-jZ-qiy"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XSA-ce-WxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3663.7681159420295" y="1618.2065217391305"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m5U-Hb-aTs">
+            <objects>
+                <viewController id="qms-OI-eaX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MVa-io-go1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qm1-84-Rv2">
+                                <rect key="frame" x="0.0" y="20" width="414" height="1436"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivO-6r-Dz4">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkR-k4-hBX">
+                                                <rect key="frame" x="8" y="190" width="398" height="1035"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">เป็นโรคติดต่อจากสัตว์สู่คนที่มีความร้ายแรงและระบาดทุกปีในประเทศไทยสาเหตุเกิดมาจากเชื้อไวรัสที่ชื่อว่า (Rabies virus) ซึ่งพบได้ที่บริเวณระบบประสาท อาการที่สามารถแบ่งออกได้ 2 ลักษณะคือ แบบดุร้าย กับแบบซึม ซึ่งในแต่ละระยะก็ยังสามารถแบ่งออกได้เป็นอีก 3 ระยะ คือ ระยะเริ่มต้น ระยะตื่นเต้น และระยะอัมพาต  
+
+ระยะเริ่มต้น สัตว์จะมีลักษณะนิสัยเปลี่ยนแปลงไปจากเดิม เช่นจากเป็นมิตรอาจซึมหรือดุร้าย หงุดหงิด ใช้ระยะเวลา 2-3 วัน 
+
+ระยะตื่นเต้น สุนัขจะมีอาการทางระบบประสาท กระวนกระวาย ตื่นเต้น กัดสิ่งของ วิ่งโดยไม่มีจุดหมาย ลิ้นห้อย อ้าปาก น้ำลายไหลฟูมปาก  เนื่องจากระบบประสาทถูกทำลาย จนขาไม่มีแรง 
+
+ระยะอัมพาต สุนัขจะแสดงอาการขาไม่มีแรง ไม่สามารถเดินได้ เป็นอัมพาตและตายในที่สุด 
+
+ถึงอย่างไรก็ตามอาการดังกล่าวสามารถแสดงอาการออกมาได้ในเวลา 5-10 วัน อาจจะมีความแตกต่างกันไปขึ้นกับสุนัขแต่ละตัว เช่น สุนัขที่มีลักษณะแบบดุร้าย อาจจะมีระยะตื่นเต้นที่มากกว่าลักษณะสุนัขที่แบบซึม เป็นต้น 
+
+ข้อควรปฏิบัติ 
+
+1. เมื่อผู้เลี้ยงหรือสุนัขที่ไปสัมผัสกับสุนัขที่ต้องสงสัยว่าเป็นโรคพิษสุนัขบ้าควรกักขังสุนัขที่สงสัยไว้ดูอาการอย่างน้อย 10 วัน หากสุนัขต้องสงสัยเสียชีวิตส่งตรวจพิสูจน์ได้ที่ สถานเสาวภา หรือ หน่วยงานปศุสัตว์ 
+
+2. รีบปฐมพยาบาลเบื้องต้น และไปพบแพทย์ในทันทีโดยไม่รอให้สุนัขที่ต้องสงสัยเสียชีวิตเสียก่อน 
+
+3. บุคคลซึ่งมีความจำเป็นในการสัมผัสสุนัขหรือเจ้าของสุนัขมีโอกาสเสี่ยงควรไปฉีดวัคซีนป้องกันโรคพิษสุนัขบ้าได้ที่โรงพยาบาลใกล้บ้าน </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="Z79-Fy-5qY"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ivO-6r-Dz4" firstAttribute="leading" secondItem="Qm1-84-Rv2" secondAttribute="leading" id="7xB-Nv-hm8"/>
+                                    <constraint firstAttribute="bottom" secondItem="ivO-6r-Dz4" secondAttribute="bottom" id="FqP-OE-qTK"/>
+                                    <constraint firstItem="ivO-6r-Dz4" firstAttribute="top" secondItem="Qm1-84-Rv2" secondAttribute="top" id="MVc-w8-fQ7"/>
+                                    <constraint firstAttribute="trailing" secondItem="ivO-6r-Dz4" secondAttribute="trailing" id="gRP-6q-QZ9"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="QKZ-KO-xMc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคพิษสุนัขบ้า (Rabies)  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ha-PC-Eha">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="913-bl-Nqp">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="WAw-T3-kg6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Kfs-0t-yDm" firstAttribute="trailing" secondItem="Qm1-84-Rv2" secondAttribute="trailing" id="Ia7-xy-dMz"/>
+                            <constraint firstItem="Kfs-0t-yDm" firstAttribute="bottom" secondItem="Qm1-84-Rv2" secondAttribute="bottom" id="UCc-Qk-qXi"/>
+                            <constraint firstItem="ivO-6r-Dz4" firstAttribute="width" secondItem="MVa-io-go1" secondAttribute="width" id="iYB-VC-vnT"/>
+                            <constraint firstItem="Qm1-84-Rv2" firstAttribute="leading" secondItem="Kfs-0t-yDm" secondAttribute="leading" id="krC-13-RSv"/>
+                            <constraint firstItem="Qm1-84-Rv2" firstAttribute="top" secondItem="Kfs-0t-yDm" secondAttribute="top" id="pAh-fz-RXg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kfs-0t-yDm"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9zs-vO-vY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4439" y="2038"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hCJ-xe-XNa">
+            <objects>
+                <viewController id="r8a-Gn-pr6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RuS-GL-chA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKG-Qc-kfq">
+                                <rect key="frame" x="0.0" y="20" width="414" height="2336"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OvY-p9-DGY">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2400"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mt-sW-8G7">
+                                                <rect key="frame" x="8" y="301" width="398" height="1425"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">การดูแลสุขภาพสุนัข เป็นสิ่งที่เจ้าของสุนัขต้องมีความรับผิดชอบและใส่ใจเป็นลำดับต้นๆ  เพื่อให้สุนัขมีสุขภาพที่ดีปราศจากความเจ็บปวด ร่วมกับการสังเกตอาการพฤติกรรมต่างๆ ของสุนัขในช่วงเวลาปกติซึ่งสามารถช่วยเจ้าของสุนัขในการเปรียบเทียบอาการเจ็บป่วยได้เบื้องต้น เช่น อาการของโรคที่เกิดจากความไม่สมดุลของอาหาร ถ้าสุนัขขาดสารอาหารจะส่งผลต่อการเจริญเติบโตที่ไม่เป็นปกติ น้ำหนัก การสืบพันธ์ และอาการทางช่องปาก ถ้าสุนัขได้รับอาหารมากเกินไปจะเกิดอาการของโรคอ้วนได้, อาการของโรคที่เกิดจากปรสิต ซึ่งเป็นสาเหตุของโรคที่ตามมามากมายซึ่งส่วนใหญ่มากจากการที่เจ้าของไม่ควบคุมความสะอาดของบริเวณที่เลี้ยงสุนัข, อาการของโรคที่ผิวหนังที่เกิดจากอาการภูมิแพ้ ปรสิต หรือแม้กระทั่งเชื้อรา สังเกตได้จากอาการที่สุนัขพยายามเกาและคันตลอดเวลา, อาจเกิดจากโรคติดต่อจากสัตว์สู่คนได้แก่ โรคฉี่หนู โรคเรื้อน โรคเกลื้อน พยาธิตัวกลม เป็นต้น  
+
+โดยการตรวจสุขภาพสุนัขเจ้าของสามารถทำได้เองเบื้องต้นจากการสังเกตพฤติกรรมของสุนัขที่เปลี่ยนแปลงไปเบื้องต้นสามารถสรุปได้ดังนี้ 
+
+1.ตา จะต้องมีแววตาแจ่มใสสีของดวงตาเป็นลักษณะไม่ขุ่นมัวสำหรับสุนัขสุขภาพดี ไม่ควรมีขี้ตาแฉะ หรือสีตาที่ผิดไปจากเดิม ถ้ามีให้เช็ดขอบตาด้วยน้ำอุ่นแล้วนำสุนัขไปพบสัตวแพทย์ต่อไปเพื่อทำการรักษาที่เหมาะสม 
+
+2.หู สุนัขที่สุขภาพดีควรมีสีหูที่เป็นสีชมพูอ่อน ไม่ควรมีขี้หูเยอะมากจนเกินไป ถ้ามีลักษณะของขี้หูที่มีปริมาณมากเกรอะกรัง ให้ทำความสะอาดโดยการใช้นำอุ่นเช็ดออกจนสะอาด ถ้าสุนัขมีอาการคัน บวมน้ำหรือมีกลิ่นเหม็นควรนำสุนัขไปพบสัตวแพทย์ต่อไปเพื่อทำการรักษาที่เหมาะสม 
+
+3.จมูก ลักษณะของจมูกสุนัขที่มีสุขภาพดีจะต้องเปียกชื้นและเย็น ถ้าจมูกสุนัขแห้งแสดงว่ามีอาการเจ็บป่วย 
+
+4.ปาก สุนัขที่สุขภาพดีควรจะมีฟันที่สะอาด ฟันแข็งแรงเหงือกมีสีชมพู ไม่มีกลิ่นปากคราบหินปูน ฟันไม่ผุ ไม่พบเลือดออกตามรายฟัน ถ้าพบอาการดังกล่าวแสดงถึงอาการเจ็บป่วยของสุนัขได้ 
+
+5.ผิวหนัง ลักษณะของสุนัขที่มีสุขภาพดีควรมีผิวหนังที่สะอาด เป็นมันเงา ปราศจากกลิ่น ขนไม่หลุดง่าย ยกเว้นระยะพลัดขน ไม่มีอาการคัน ไม่พบปรสิตภายนอก เช่น เห็บ หมัด เป็นต้น 
+
+6.ทวารหนัก สุขภาพของสุนัขที่ดีจะต้องไม่มีคราบอุจจาระติดค้าง ไม่มีพยาธิหรือไข่พยาธิให้เห็น ไม่มีลักษณะของอาการอักเสบ บวมแดง ไม่มีก้อนเนื้องอก 
+
+7.การเคลื่อนไหว สุนัขที่สุขภาพดีจะต้องมีการเคลื่อนไหวในลักษณะที่ปกติ ซึ่งจะมากหรือน้อยขึ้นกับลักษณะของพฤติกรรมในแต่ละตัว </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ee1" translatesAutoresizingMaskIntoConstraints="NO" id="6lS-8I-NUe">
+                                                <rect key="frame" x="100" y="175" width="219" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2400" id="33f-hY-eB0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="OvY-p9-DGY" firstAttribute="top" secondItem="gKG-Qc-kfq" secondAttribute="top" id="5tk-TN-igb"/>
+                                    <constraint firstItem="OvY-p9-DGY" firstAttribute="leading" secondItem="gKG-Qc-kfq" secondAttribute="leading" id="9S0-pt-00J"/>
+                                    <constraint firstAttribute="bottom" secondItem="OvY-p9-DGY" secondAttribute="bottom" id="Bq9-Rc-SCR"/>
+                                    <constraint firstAttribute="trailing" secondItem="OvY-p9-DGY" secondAttribute="trailing" id="DS7-Dy-N9D"/>
+                                    <constraint firstItem="OvY-p9-DGY" firstAttribute="leading" secondItem="gKG-Qc-kfq" secondAttribute="leading" id="JSm-Mk-DXd"/>
+                                    <constraint firstAttribute="bottom" secondItem="OvY-p9-DGY" secondAttribute="bottom" id="aKR-ln-Tnq"/>
+                                    <constraint firstAttribute="trailing" secondItem="OvY-p9-DGY" secondAttribute="trailing" id="agO-6x-Vee"/>
+                                    <constraint firstItem="OvY-p9-DGY" firstAttribute="top" secondItem="gKG-Qc-kfq" secondAttribute="top" id="fYU-eh-DiP"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="XRB-8a-Sfk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="สุขภาพสัตว์" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8C1-01-d17">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZED-mr-L28">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="zbA-3M-K1r"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5qx-rl-Wuf" firstAttribute="bottom" secondItem="gKG-Qc-kfq" secondAttribute="bottom" id="QKH-kM-EQ8"/>
+                            <constraint firstItem="gKG-Qc-kfq" firstAttribute="top" secondItem="5qx-rl-Wuf" secondAttribute="top" id="Wfn-uN-Czb"/>
+                            <constraint firstItem="5qx-rl-Wuf" firstAttribute="trailing" secondItem="gKG-Qc-kfq" secondAttribute="trailing" id="euU-GN-XMg"/>
+                            <constraint firstItem="gKG-Qc-kfq" firstAttribute="leading" secondItem="5qx-rl-Wuf" secondAttribute="leading" id="jBD-qe-ole"/>
+                            <constraint firstItem="OvY-p9-DGY" firstAttribute="width" secondItem="RuS-GL-chA" secondAttribute="width" id="keo-fL-RnZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5qx-rl-Wuf"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mGo-3U-acY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255.07246376811597" y="2227.1739130434785"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kFY-6b-22c">
+            <objects>
+                <viewController id="JgD-gP-Lw1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EWi-jx-RYu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="fje-f1-jzQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc2" translatesAutoresizingMaskIntoConstraints="NO" id="WqD-Vp-p6S">
+                                <rect key="frame" x="0.0" y="40" width="414" height="696"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fdn-xk-waL">
+                                <rect key="frame" x="6" y="119" width="402" height="507"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgh" translatesAutoresizingMaskIntoConstraints="NO" id="QnV-9a-dIK">
+                                        <rect key="frame" x="93" y="-8" width="240" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8W-Jj-Ihk">
+                                        <rect key="frame" x="139" y="43" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc221"/>
+                                        <connections>
+                                            <segue destination="OSs-VC-Thw" kind="show" id="t0E-m0-hi1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntW-HH-gFE">
+                                        <rect key="frame" x="28" y="150" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc4"/>
+                                        <connections>
+                                            <segue destination="Agc-vZ-LGt" kind="show" id="edk-6d-8dw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yi-Ld-mIA">
+                                        <rect key="frame" x="139" y="150" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc5"/>
+                                        <connections>
+                                            <segue destination="r8a-Gn-pr6" kind="show" id="fm5-qO-pjN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGe-7k-83j">
+                                        <rect key="frame" x="79" y="257" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc7"/>
+                                        <connections>
+                                            <segue destination="pdr-wl-EbB" kind="show" id="Ke4-0E-EJn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjl-3J-UL6">
+                                        <rect key="frame" x="28" y="43" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc11"/>
+                                        <connections>
+                                            <segue destination="Emc-8O-0fI" kind="show" id="u6H-Kd-mMU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK1-pb-xfZ">
+                                        <rect key="frame" x="192" y="257" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc8"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="5Tx-rX-skH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dO-8w-XQV">
+                                        <rect key="frame" x="248" y="43" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc3"/>
+                                        <connections>
+                                            <segue destination="MUs-hs-l7o" kind="show" id="sTG-EF-eyB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hO-GS-dTF">
+                                        <rect key="frame" x="248" y="150" width="125" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btnc6"/>
+                                        <connections>
+                                            <segue destination="ORB-dd-i56" kind="show" id="dsb-sS-9iH"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="บริการข้อมูลสุนัขจรจัด" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8g-Jk-o2X">
+                                        <rect key="frame" x="125" y="3" width="177" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="19"/>
+                                        <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar2" translatesAutoresizingMaskIntoConstraints="NO" id="Vnd-fp-Ju3">
+                                <rect key="frame" x="-4" y="29" width="425" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pho-na-1OU">
+                                <rect key="frame" x="-4" y="0.0" width="418" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JVh-WS-GeE"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KXB-hL-PTJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137.68115942029" y="121.46739130434784"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fdM-lP-AuG">
+            <objects>
+                <viewController id="Agc-vZ-LGt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="05J-3d-wHv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Td-Zs-dd4">
+                                <rect key="frame" x="0.0" y="20" width="414" height="2336"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TO1-j2-pXQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2400"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dd1" translatesAutoresizingMaskIntoConstraints="NO" id="oLr-NW-Uah">
+                                                <rect key="frame" x="100" y="175" width="219" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ori-mz-nwI">
+                                                <rect key="frame" x="8" y="301" width="398" height="1657"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">พฤติกรรมของสุนัข สุนัขได้กลายเป็นสัตว์เลี้ยงที่มีประวัติความเป็นมาคู่กับมนุษย์และมีความสัมพันธ์ที่แนบแน่นยาวนานจึงไม่ใช่เรื่องน่าแปลกใจที่เราจะมีสุนัขไว้เลี้ยงเป็นเพื่อนที่บ้านแต่การทำความเข้าใจพฤติกรรมของสุนัข สัญชาตญาณยิ่งจะทำให้เจ้าของสุนัขเข้าใจสุนัขของตนเองมากยิ่งขึ้นโดยพฤติกรรมของสุนัขจะแบ่งออกได้ตามช่วงอายุดังนี้  
+
+1. ช่วงที่ลูกสุนัขแรกเกิดมีอายุประมาณ 1-2 สัปดาห์ ช่วงนี้ลูกสุนัขจะยังไม่สามารถมองเห็นหรือได้ยินเสียงต่างๆ ลูกสุนัขจะค้นหาเต้านมแม่ได้โดยอาศัยการสัมผัสและการดมกลิ่น ลูกสุนัขในช่วงเวลานี้จะใช้เวลาส่วนใหญ่หมดไปกับการกินและนอน การขับถ่ายปัสสาวะและอุจจาระมักจะไม่เกิดขึ้นเอง แต่การเลียของแม่สุนัขบริเวณทวารหนักและอวัยวะสืบพันธุ์จะเป็นการกระตุ้นให้เกิดการขับถ่ายได้ การเคลื่อนไหวของลูกสุนัขจะอาศัยขาหน้าทั้ง 2 ข้าง พร้อมกับดึงขาหลังไปข้างหน้า  
+
+2.ช่วงที่ลูกสุนัขอายุประมาณ 3 สัปดาห์ ช่วงนี้ลูกสุนัขจะได้รับสิ่งกระตุ้นเร้าจากภายนอกมากขึ้น เนื่องจากอวัยวะรับความรู้สึกต่างๆได้มีการพัฒนามากขึ้น ลูกสุนัขจะลืมตาหลังจากที่เกิดได้ 10-16 วัน แต่ความสามารถในการมองเห็นจะยังไม่ชัดเจน หูของสุนัขจะสามารถฟังเสียงได้เมื่ออายุประมาณ 14-16 วัน ช่วงนี้ลูกสุนัขจะสามารถขับถ่ายปัสสาวะและอุจจาระได้เองแต่แม่สุนัขจะยังคงเลียทำความสะอาดให้อยู่ เมื่อลูกสุนัขอายุประมาณ 12-14 วันจะเริ่มยืนรับน้ำหนักด้วยขาทั้ง 4 ข้างได้ แต่การนั่งและยืนแบบสุนัขปกติที่โตแล้วจะพบได้เมื่ออายุมากกว่า 28 วัน ฟันของสุนัขก็จะเริ่มขึ้นในช่วงนี้ และจะเริ่มวิ่งไล่และเล่นกันเองระหว่างลูกสุนัขในช่วงนี้เช่นกัน  
+
+3.ถือเป็นช่วงที่สำคัญสุดที่มีอิทธิพลต่อพฤติกรรมของลูกสุนัข คือช่วงอายุ 4-10 สัปดาห์  ลูกสุนัขจะเรียนรู้เกี่ยวกับสิ่งต่างๆ รอบๆ ตัวของมัน พี่น้องของมันและแม่ของมัน รวมถึงเรียนรู้ถึงมนุษย์ด้วย การเล่นของลูกสุนัขจะเริ่มเห็นบ่อยมากที่สุดในช่วงนี้ การจัดลำดับการข่มเหนือในกลุ่มพี่น้องจะเกิดขึ้นในช่วงนี้เช่นกัน พฤติกรรมการหลบหลีกก็จะพัฒนาขึ้น และเมื่ออายุ 8 สัปดาห์ จะพบว่าลูกสุนัขจะมีปฏิกิริยาการกลัวให้พบเห็นได้ ลูกสุนัขจะเริ่มหย่านมในช่วงนี้  
+
+4.นอกจากลูกสุนัขจะต้องมีการปรับตัวให้เข้ากับสังคมของมันแล้ว การปรับตัวให้เข้ากับมนุษย์ก็มีความสำคัญไม่ยิ่งหย่อนไปกว่ากัน สุนัขที่ไม่ค่อยได้สัมผัสกับมนุษย์มากนักจนถึงอายุ14สัปดาห์ มักจะไม่เป็นสุนัขเลี้ยงที่ดีนัก สุนัขพวกนี้อาจจะปรับตัวเข้ากับสุนัขตัวอื่นได้ดี แต่จะมีประสบการณ์ในการเข้าหามนุษย์จำกัด สุนัขจะมีความขลาดกลัวอย่างมาก หรือยากที่จะข่มเหนือมัน ถึงแม้ว่าโดยปกติสุนัขจะต้องพบกับการให้รางวัลจากมนุษย์ แต่สุนัขที่ไม่คุ้นเคยกับมนุษย์จะไม่มีพฤติกรรมอย่างนั้น และเป็นการยากที่จะฝึกสุนัขตัวนั้นด้วย  
+
+5.ช่วงวัยรุ่น 10 สัปดาห์ขึ้นไป หมายถึงในช่วงนี้ลูกสุนัขกำลังเติบโต มีขนาดที่โตขึ้นและมีความสามารถเหมือนสุนัขโต ลูกสุนัขเริ่มแสดงพฤติกรรมทางเพศเหมือนสุนัขโตตั้งแต่ 4-6 เดือน โดยลูกสุนัขจะมีความสนใจต่อสุนัขที่เป็นสัดมากกว่าสุนัขเพศเมียที่ตอนแล้ว ความสนใจทางเพศจะเพิ่มมากขึ้นจนกระทั่งอายุ 2 ปี ซึ่งเป็นช่วงที่สุนัขเจริญเติบโตเต็มที่ แม้เราจะถือว่าลูกสุนัขเติบโตเต็มวัย ตั้งแต่เข้าสู่วัยเจริญพันธุ์ แต่สุนัขส่วนใหญ่ยังไม่เติบโตเต็มที่จนกว่าจะอายุ 18 เดือนขึ้นไป </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2400" id="Fg1-61-Seb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="TO1-j2-pXQ" firstAttribute="top" secondItem="9Td-Zs-dd4" secondAttribute="top" id="91W-J2-vsF"/>
+                                    <constraint firstAttribute="trailing" secondItem="TO1-j2-pXQ" secondAttribute="trailing" id="A81-bA-HhC"/>
+                                    <constraint firstItem="TO1-j2-pXQ" firstAttribute="leading" secondItem="9Td-Zs-dd4" secondAttribute="leading" id="sZg-aL-Cot"/>
+                                    <constraint firstAttribute="bottom" secondItem="TO1-j2-pXQ" secondAttribute="bottom" id="wC1-8O-7BZ"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="N5I-Rl-ZHE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="พฤติกรรมสัตว์เบื้องต้น" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRD-w4-Xwp">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.52353869819999999" blue="0.11365210150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vry-A4-lcb">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="TWZ-Jo-Vve"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9Td-Zs-dd4" firstAttribute="leading" secondItem="JYr-F3-ke2" secondAttribute="leading" id="60D-2e-SYY"/>
+                            <constraint firstItem="JYr-F3-ke2" firstAttribute="bottom" secondItem="9Td-Zs-dd4" secondAttribute="bottom" id="Jv0-Yw-B9q"/>
+                            <constraint firstItem="9Td-Zs-dd4" firstAttribute="top" secondItem="JYr-F3-ke2" secondAttribute="top" id="PDp-fr-DdV"/>
+                            <constraint firstAttribute="trailing" secondItem="9Td-Zs-dd4" secondAttribute="trailing" id="nf3-68-9gu"/>
+                            <constraint firstItem="TO1-j2-pXQ" firstAttribute="width" secondItem="05J-3d-wHv" secondAttribute="width" id="omF-Tg-hhd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JYr-F3-ke2"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y4y-Od-7Sc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2969.5652173913045" y="-1219.5652173913045"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TwN-qz-tWe">
+            <objects>
+                <viewController id="khJ-hE-7Tb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h9V-wR-yPr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FNz-uu-dZL">
+                                <rect key="frame" x="0.0" y="20" width="414" height="1136"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yDB-Xf-toW">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hed-Ni-r2V">
+                                                <rect key="frame" x="8" y="190" width="398" height="657"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">สำหรับโรคพยาธิเม็ดเลือดในสุนัขนั้นมีสาเหตุมาจากการติดเชื้อ ริคเก็ตเซีย, โปรโตซัว, หนอนพยาธิ และแบคทีเรีย (แล้วแต่ชนิดของเชื้อที่เป็นสาเหตุในแต่ละโรคนั้น ๆ ) ซึ่งก็จะมีความรุนแรงของโรคแตกต่างกันออกไป โดยจะขอยกตัวอย่างถึงโรคที่สามารถพบเจอได้บ่อย ๆ ในประเทศไทยมากล่าว ณ ที่นี้ และเราจะสามารถแบ่งเชื้อออกเป็นกลุ่ม ๆ ได้ดังต่อไปนี้ 
+- โรคที่เกิดจากเชื้อริคเก็ตเซีย 
+Ehrlichia canis (E.canis) และ Anaplasma platys (A.platys)  
+-  โรคที่เกิดจากโปรโตชัว 
+Babesia canis (B.canis) 
+Hepatozoon canis (H.canis) 
+- โรคที่เกิดจากหนอนพยาธิ 
+Dirofilaria immitis (D.immitis) 
+- โรคที่เกิดจากแบคทีเรีย 
+Mycoplasma haemocanis (M.haemocanis) 
+โดยโรคเหล่านี้มีพาหะหรือตัวนำเชื้อโรคจากสัตว์อีกตัวหนึ่งไปสู่อีกตัวหนึ่ง ซึ่งเป็นกลุ่มของแมลงดูดเลือด เช่น เห็บ หมัด ยุง โดยตัวเชื้ออาศัยอยู่ในตัวพาหะนำโรค และเมื่อแมลงพาหะเหล่านั้นกำลังกัดหรือเจาะดูดเลือดของสุนัขอยู่นั้น ตัวเชื้อโรคก็จะเข้าไปในหลอดเลือดของสุนัขในตอนนั้น และเมื่อตัวเชื้อเข้าสู่ร่างกายสุนัขแล้ว พวกมันจะทำการเพิ่มจำนวนของเชื้อขึ้นอย่างมากมายในตัวสุนัข ซึ่งเหตุนี้เองทำให้สุนัขแสดงอาการป่วยให้เราได้เห็นชัดเจนมากขึ้น </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="อาการโดยรวมที่เหมือน ๆ กันเมื่อสุนัขติดพยาธิเม็ดเลือดเข้าไป ได้แก่" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td1-zT-YDW">
+                                                <rect key="frame" x="8" y="857" width="398" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXV-Vo-XSb">
+                                                <rect key="frame" x="8" y="915" width="398" height="89"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">- โลหิตจาง 
+- มีไข้สูง, ซึม  
+- เบื่ออาหาร, น้ำหนักลด </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="ni5-m7-JTg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yDB-Xf-toW" firstAttribute="top" secondItem="FNz-uu-dZL" secondAttribute="top" id="Han-wb-GTk"/>
+                                    <constraint firstAttribute="bottom" secondItem="yDB-Xf-toW" secondAttribute="bottom" id="b4e-le-fiw"/>
+                                    <constraint firstAttribute="trailing" secondItem="yDB-Xf-toW" secondAttribute="trailing" id="bD0-Q0-zbG"/>
+                                    <constraint firstItem="yDB-Xf-toW" firstAttribute="leading" secondItem="FNz-uu-dZL" secondAttribute="leading" id="nzV-sv-g8t"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="R9s-mC-veK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคพยาธิเม็ดเลือดในสุนัข " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3d-yK-o8q">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0039215686269999999" green="0.42352941179999998" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fq2-4X-RMG">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="g70-15-6yi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FNz-uu-dZL" firstAttribute="leading" secondItem="bBb-cn-PTX" secondAttribute="leading" id="1u5-vc-fjr"/>
+                            <constraint firstItem="FNz-uu-dZL" firstAttribute="top" secondItem="bBb-cn-PTX" secondAttribute="top" id="JzA-HW-gbB"/>
+                            <constraint firstItem="bBb-cn-PTX" firstAttribute="trailing" secondItem="FNz-uu-dZL" secondAttribute="trailing" id="Qo7-uP-GSo"/>
+                            <constraint firstItem="bBb-cn-PTX" firstAttribute="bottom" secondItem="FNz-uu-dZL" secondAttribute="bottom" id="fU6-nY-a9k"/>
+                            <constraint firstItem="bBb-cn-PTX" firstAttribute="bottom" secondItem="FNz-uu-dZL" secondAttribute="bottom" id="hV8-RP-Srv"/>
+                            <constraint firstItem="yDB-Xf-toW" firstAttribute="width" secondItem="h9V-wR-yPr" secondAttribute="width" id="sW6-c3-T7a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bBb-cn-PTX"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="io8-qI-14G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-452.17391304347831" y="4323.913043478261"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aQ3-TE-PqD">
+            <objects>
+                <viewController id="DWA-b6-F7C" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jTN-v6-RkG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aA8-2V-ZWu">
+                                <rect key="frame" x="0.0" y="20" width="414" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRy-DU-fGz">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcE-xP-VJw">
+                                                <rect key="frame" x="8" y="190" width="398" height="636"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">มีสาเหตุมาจากหนอน Dirofilaria immitis โดยตัวอ่อนของหนอนพยาธิชนิดนี้ โดยมียุงเป็นพาหะนำโรค ซึ่งตัวอ่อนของพยาธิจะเข้าสู่กระแสเลือดตอนที่ยุงกัดสุนัข โดยออกมาจากต่อมน้ำลายเข้าสู่หลอดเลือดทางปากของยุง และจะไปเจริญเติบโตเป็นตัวเต็มวัยที่หัวใจห้องล่างขวา ส่งผลให้หัวใจห้องล่างขวามีขนาดที่ใหญ่ขึ้นผิดปกติ โดยทางห้องปฏิบัติการทางสัตวแพทย์สามารถตรวจพบตัวอ่อนของพยาธิหนอนหัวใจได้ แต่ไม่สามารถตรวจพบตัวเต็มวัยได้ ต้องใช้การอุลตราซาวน์ หรือถ่ายภาพรังสีเข้ามาช่วย 
+ความรุนแรงของโรคนั้นขึ้นอยู่กับจำนวนของพยาธิหนอนหัวใจที่อาศัยอยู่ภายในหัวใจและเส้นเลือดดำใหญ่ของสุนัข โดยอาการของสุนัขที่ป่วยเป็นโรคพยาธิหนอนหัวใจอาจพบตั้งแต่ ในระยะไม่แสดงอาการจนถึงขั้นระยะหัวใจล้มเหลว สำหรับอาการที่เจ้าของสุนัขสามารถพบเห็นได้โดยทั่ว ๆ ไป เช่น การไอแห้ง ๆ, เหนื่อยง่าย, และอาจจะมีลักษณะท้องกางขยายใหญ่ เนื่องจากมีน้ำสะสมอยู่ในช่องท้อง เป็นต้น 
+การป้องกันและควบคุมโรคพยาธิเม็ดเลือดในสุนัข 
+ควบคุม กำจัด ป้องกัน ปรสิตภายนอกได้แก่ เห็บ หมัด ยุง เป็นต้นเนื่องจากปรสิตภายนอกดังกล่าวดังกล่าว เป็นพาหะที่นำเชื้อโรค 
+ตรวจสุขภาพสุนัขเป็นประจำสม่ำเสมอ อย่างน้อย ๆ 3 – 6 เดือนครั้ง </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="ad5-AJ-2HI"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uRy-DU-fGz" firstAttribute="top" secondItem="aA8-2V-ZWu" secondAttribute="top" id="57H-VS-iD5"/>
+                                    <constraint firstAttribute="trailing" secondItem="uRy-DU-fGz" secondAttribute="trailing" id="UWa-wh-7rT"/>
+                                    <constraint firstAttribute="bottom" secondItem="uRy-DU-fGz" secondAttribute="bottom" id="rNd-Sf-3Cj"/>
+                                    <constraint firstItem="uRy-DU-fGz" firstAttribute="leading" secondItem="aA8-2V-ZWu" secondAttribute="leading" id="wMk-mf-iwE"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="xNo-l1-Jjs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคพยาธิหนอนหัวใจ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSW-DO-paH">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0039215686269999999" green="0.42352941179999998" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3om-S8-1zG">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="GBB-Oh-rfg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uRy-DU-fGz" firstAttribute="width" secondItem="jTN-v6-RkG" secondAttribute="width" id="Aqn-0o-AGS"/>
+                            <constraint firstItem="aA8-2V-ZWu" firstAttribute="leading" secondItem="ZMl-GP-kMw" secondAttribute="leading" id="FdG-yk-ehZ"/>
+                            <constraint firstItem="ZMl-GP-kMw" firstAttribute="trailing" secondItem="aA8-2V-ZWu" secondAttribute="trailing" id="SZm-3U-Qik"/>
+                            <constraint firstItem="ZMl-GP-kMw" firstAttribute="bottom" secondItem="aA8-2V-ZWu" secondAttribute="bottom" id="Uhp-Nw-2oh"/>
+                            <constraint firstItem="aA8-2V-ZWu" firstAttribute="top" secondItem="ZMl-GP-kMw" secondAttribute="top" id="eKs-Ai-2o9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZMl-GP-kMw"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Es0-9d-Cmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431.8840579710145" y="4356.521739130435"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YEQ-zW-FQJ">
+            <objects>
+                <viewController id="ZbB-PR-yi7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ch-RO-Ebu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="n4C-y5-gCC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคลำไส้อักเสบ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00z-IU-nQb">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0039215686269999999" green="0.42352941179999998" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคลำไส้อักเสบเนื่องจากเชื้อโคโรนาไวรัส (Canine Colonavirus) และ ลำไส้อักเสบเนื่องจากเชื้อพาร์โวไวรัส (Canine Parvovirus) " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mx-Oh-aBU">
+                                <rect key="frame" x="8" y="212" width="389" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="se9-dN-BrN">
+                                <rect key="frame" x="51" y="169" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="QRr-hE-sTq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRs-6D-kl4">
+                                <rect key="frame" x="8" y="321" width="398" height="388"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">ทั้งสองโรคนี้เป็นโรคที่เกิดในสุนัขที่มีสาเหตุมาจากเชื้อไวรัสทั้งสองโรค คือ โคโรนาไวรัส (Canine Colonavirus) และ พาร์โวไวรัส (Canine Parvovirus) แต่ระดับความรุนแรงของโรคเชื้อพาร์โวไวรัสจะมีระดับความรุนแรงมากกว่าโคโรนาไวรัส อาการที่พบในเชื้อโคโลนาไวรัส สุนัขจะมีอาการไข้และซึมเล็กน้อย ท้องเสีย อาเจียน ไม่อยากอาหาร ในส่วนของ พาร์โวไวรัสอาการของโรคจะมีความรุนแรงมากกว่าจะมีอาการท้องเสียเป็นมูกเลือด มีกลิ่นคาว 24-48 ชั่วโมง เมื่อคลำบริเวณท้องสุนัขจะมีอาการเจ็บปวดบริเวณที่ถูกคลำ อาจมีอาการทางประสาทร่วมด้วยอาจร้ายแรงไปถึงการติดเชื้อในกระแสเลือดและเสียชีวิตในที่สุด วิธีการป้องกันที่ดีที่สุด คือการทำวัคซีนป้องกันโรคตามกำหนดสามารถดูได้จากหัวข้อตารางการทำวัคซีน เพราะถ้าเกิดได้รับเชื้อไวรัสเข้าไปมีโอกาสสูงที่สุนัขจะเสียชีวิตได้ </string>
+                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="an0-cP-tAa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90v-Cj-82S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1185" y="4381"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SwG-k2-rd7">
+            <objects>
+                <viewController id="g6F-Jl-8JO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uiz-RI-lQV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="mBQ-EG-xHE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="กลุ่มโรค Haemobartonellosis   " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVU-Zc-TkC">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0039215686274509803" green="0.42352941176470588" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEJ-Ih-zdP">
+                                <rect key="frame" x="51" y="169" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="EGO-Ag-ytj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydB-Sc-2zt">
+                                <rect key="frame" x="8" y="212" width="398" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">มีสาเหตุมาจากเชื้อแบคทีเรีย Haemobartonella spp. ซึ่งติดต่อมาโดยมีหมัดเป็นพาหะ โดยตัวเชื้อเมื่อเข้าสู่ร่างกายจะอาศัยอยู่บนผิวด้านนอกของเม็ดเลือดแดง และทำให้เม็ดเลือดแดงมีลักษณะรูปร่างผิดปกติไป จนส่งผลทำให้เม็ดเลือดแดงถูกทำลายได้โดยม้าม ปกติโรคนี้มักจะพบในแมวได้มากกว่าในสุนัข (ในประเทศไทยพบในสุนัขได้น้อยมาก) อาการที่พบมักมีลักษณะดังนี้ คือ โลหิตจาง มีไข้ ซึม (ปกติไม่ค่อยแสดงอาการอะไรให้เห็น ถ้าร่างกายแข็งแรง) เรามักพบร่วมกับการติดเชื้ออื่น (โดยเฉพาะโรคเกี่ยวกับไวรัส) เนื่องจากในสัตว์ที่มีสุขภาพแข็งแรงดี ภูมิคุ้มกันปกติจะควบคุมปริมาณของเชื้อในร่างกายไม่ให้เชื้อก่อโรคได้ เราจึงไม่เห็นการแสดงอาการของโรค </string>
+                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6vR-Fc-s3L"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeR-ZI-XrK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1940.5797101449277" y="4381.79347826087"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wao-vH-ExS">
+            <objects>
+                <viewController id="RDr-et-nfd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ifx-z3-eDS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="Rsi-nb-Vkc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="กลุ่มโรค Hepatozoonosis " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0N-YB-wWZ">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfj-Am-w7n">
+                                <rect key="frame" x="8" y="212" width="398" height="530"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">มีสาเหตุมาจากเชื้อโปรโตซัว Hepatozoon spp. ซึ่งติดต่อมาโดยมีเห็บเป็นพาหะ และเชื้อเข้าสู่ร่างกายได้โดยกรณีที่สุนัขมีการกินเห็บเข้าไป โดยที่พบได้บ่อยในประเทศไทยคือ Hepatozoon canis เมื่อตัวเชื้อเข้าสู่ร่างกายสุนัขมันจะเข้าไปอาศัยอยู่ในเม็ดเลือดขาวชนิดนิวโทรฟิว (Neutrophils) ซึ่งจะมีผลทำให้ภูมิคุ้มกันของสัตว์ลดลงจากปกติ เนื่องจากเม็ดเลือดขาวดังกล่างจะถูกทำลาย และสูญเสียประสิทธิภาพในการป้องกันตัวเองจากเชื้อภายนอก และมันยังสามารถเข้าไปอาศัยในกล้ามเนื้อได้ด้วย อาการที่มักพบนอกจากอาการโดยรวมๆ เบื้องต้นที่กล่าว  
+
+ลักษณะเด่นชัด เมื่อสุนัขติดเชื้อ Hepatozoon canis คือ มักจะมีไข้ขึ้น ๆ ลง ๆ และไม่ค่อยตอบสนองต่อยาปฏิชีวนะ มีอาการเจ็บตามกล้ามเนื้อที่สัมผัส มักพบอาการเจ็บขาหรือท่าเดินผิดปกติ ระยะยาวอาจพบกล้ามเนื้อฝ่อลีบตามมาได้ มักพบการติดเชื้อร่วมกับ Ehrlichai canis โดยมากเชื้อ Hepatozoon canis มักเป็นเชื้อแฝงในร่างกายเมื่อสัตว์อ่อนแอจะทำให้สัตว์แสดงอาการของโรคออกมาได้ </string>
+                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdN-xn-Ibu">
+                                <rect key="frame" x="51" y="169" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="mG6-MD-nsH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jGw-ob-32H"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TYf-q8-0eD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2785.507246376812" y="4425.8152173913049"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tUi-P1-SND">
+            <objects>
+                <viewController id="Fnc-yE-h2O" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VeQ-fM-UQO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="qKz-rD-jJJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="กลุ่มโรค Babesiosis " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-2Q-FoU">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HE-kD-HU8">
+                                <rect key="frame" x="8" y="212" width="398" height="514"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">มีสาเหตุมาจากเชื้อโปรโตซัว Babesia spp. ซึ่งติดต่อมาโดยมีเห็บเป็นพาหะ และเชื้อเข้าสู่ร่างกายตอนที่เห็บดูดเลือดสุนัข โดยที่พบได้บ่อยในประเทศไทยคือ Babesia canis ตัวเชื้อจะเข้าไปอาศัยอยู่ในเม็ดเลือดแดงและทำการเพิ่มจำนวนภายในนั้น คล้ายกับเชื้อที่ทำให้เกิดโรคมาเลเรียในคน เมื่อเชื้อเพิ่มจำนวนมากขึ้นจะทำให้เม็ดเลือดแดงของสุนัขถูกทำลาย (เกิดการแตกสลายของเม็ดเลือดแดง) ในช่วงระยะแรก ๆ อาจจะเห็นว่าสัตว์มีอาการซึม ไข้ขึ้น เบื่ออาหาร ตามอาการโดยรวมเบื้องต้น สำหรับโรคนี้นั้นหากเกิดกับลูกสุนัขจะมีอัตราการตายที่สูงกว่าสุนัขโต เนื่องจากว่ามีภูมิคุ้มกันที่ต่ำ 
+
+ลักษณะเด่นชัด เมื่อสุนัขมีการติดเชื้อเข้าไปในร่างกาย คือ เมื่อผ่านการติดเชื้อมาสักระยะและตัวเชื้อมีการเพิ่มจำนวนมากขึ้น จะให้เม็ดเลือดแดงแตกอย่างมากมาย จนส่งผลให้ปัสสาวะของสุนัขมีสีแดงหรือสีโค้ก และในระยะที่เรื้อรังจะพบว่าสุนัขมีอาการดีซ่านร่วมด้วยคือ เยื่อเมือก ผัวหนัง หรือตา จะเปลี่ยนเป็นสีเหลือง </string>
+                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yv6-qg-KGA">
+                                <rect key="frame" x="51" y="169" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="Iwp-9R-eKH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kyX-32-wWG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q16-qa-URz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3662.3188405797105" y="4425.8152173913049"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HyB-kO-KDc">
+            <objects>
+                <viewController id="094-6v-XSU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="luJ-Gk-7bd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="6uD-Pu-Kfc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคหัดสุนัข" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpR-y9-ka4">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPv-qK-zwK">
+                                <rect key="frame" x="51" y="169" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="DxW-t5-c1T"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUx-LU-Pgm">
+                                <rect key="frame" x="8" y="212" width="398" height="403"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">เป็นโรคติดต่อร้ายแรงอีกชนิดของสุนัขหรือมีอีกชื่อเรียกว่า โรคฝ่าเท้าแข็ง (Hard Pad Disease) พบได้ในช่วงปลายฤดูฝนต้นฤดูหนาว อาการที่พบสุนัขจะมีอาการซึม มีไข้ ตาแฉะ และมีน้ำมูกสีเหลืองปนเขียว ร่วมกับอาการของระบบทางเดินอาหาร ไม่กินอาหารลำไส้อักเสบควบคู่ไปกับอาการของระบบทางเดินหายใจมีอาการไอปอดบวม ในระยะสุดท้ายจะพบอาการทางประสาทมีอาการกระตุกของกล้ามเนื้อขาหลัง เป็นอัมพาตและเสียชีวิตในที่สุด 
+
+การป้องกันและควบคุมของโรคได้โดยการให้ลูกสุนัขดื่มน้ำนมจากแม่สุนัขรับภูมิคุ้มกันจากแม่หรือทำวัคซีนป้องกันโรคไข้หวัดสุนัขตามระยะเวลาที่กำหนดในหัวข้อตารางการทำวัคซีน </string>
+                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="DGZ-Xl-GHj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kB5-ST-RLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4439.130434782609" y="4098.913043478261"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zvz-1G-WSX">
+            <objects>
+                <viewController id="8t2-Y7-FL6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n73-SM-HyI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZiA-9T-d1R">
+                                <rect key="frame" x="0.0" y="20" width="414" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xCE-ay-1QC">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpu-Br-asA">
+                                                <rect key="frame" x="8" y="190" width="398" height="773"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">มีสาเหตุมาจากเชื้อริกเก็ตเซีย Ehrlichia spp. ซึ่งติดต่อมาโดยมีเห็บเป็นพาหะ และเชื้อเข้าสู่ร่างกายตอนที่เห็บดูดเลือดสุนัข โดยในประเทศไทยส่วนใหญ่ที่พบจะเป็น Ehrlichia canis ตัวเชื้อจะเข้าไปอาศัยอยู่ในเม็ดเลือดขาวชนิด โมโนไซต์ และ ลิมโฟไซต์ นับเป็นโรคที่บ่อยได้บ่อยที่สุดในสุนัข ความรุนแรงของโรคมีตั้งแต่รุนแรงไม่มากเท่าไหร่ ถึงรุนแรงมากเลยทีเดียว ทั้งนี้ทั้งนั้นขึ้นอยู่กับความยาวนานของระยะการติดเชื้อ โดยเฉพาะสุนัขจรจัด ส่วนใหญ่จะเจอในกรณีที่เป็นการติดเชื้อระยะเรื้อรัง เนื่องจากไม่มีเจ้าของคอยสังเกตอาการตั้งแต่ตอนแรก ซึ่งระยะนี้จะเป็นระยะที่มีการติดเชื้อที่ไขกระดูกและมีการกดการทำงานของไขกระดูก ซึ่งจะส่งผลให้การรักษายากมากขึ้น เพราะมีความซับซ้อนมากขึ้น เนื่องจากสัตว์อาจจะมีการติดเชื้ออย่างอื่นแทรกซ้อนด้วย หรืออาจจะส่งผลต่อการทำงานของอวัยวะบางอย่าง เช่น ตับ หรือ ไต เป็นต้น 
+
+ลักษณะอาการเด่น ๆ ของสุนัขที่ติดเชื้อ Ehrlichia canis ที่นอกเหนือจากที่กล่าวมาเบื้องต้นนั้น คือ จะมีจุดเลือดออกตามเยื่อเมือก และผิวหนังส่วนต่าง ๆ (โดยเฉพาะใต้ท้อง) ซึ่งเป็นผลมาจากเกล็ดเลือดในระบบหมุนเวียนเลือดต่ำลง ทำให้มีภาวะที่เลือดออกง่าย นั่นเอง และหากสุนัขตัวนั้นติดเชื้อมานานมากแล้ว อาจจะพบว่าต่อมน้ำเหลืองมีการบวมใหญ่ขึ้น หรือหากเลวร้ายมากกว่านั้นคือ ส่วนใหญ่สุนัขที่ติดเชื้อแบบเรื้อรังอาจจะส่งผลให้เกิดภาวะภูมิคุ้มกันทำลายเม็ดเลือดแดงของตัวเอง (IMHA) ซึ่งส่งผลให้การรักษายากขึ้นไปอีก และสัตว์มีโอกาสเสียชีวิตได้มากขึ้น หากไม่ได้รับการรักษาอย่างถูกต้องและทันท่วงที </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="yrs-IJ-v3e"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xCE-ay-1QC" firstAttribute="leading" secondItem="ZiA-9T-d1R" secondAttribute="leading" id="KMB-XR-1Xo"/>
+                                    <constraint firstAttribute="trailing" secondItem="xCE-ay-1QC" secondAttribute="trailing" id="dhr-BA-xnx"/>
+                                    <constraint firstItem="xCE-ay-1QC" firstAttribute="top" secondItem="ZiA-9T-d1R" secondAttribute="top" id="diC-KX-HgJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="xCE-ay-1QC" secondAttribute="bottom" id="nYB-ff-8ac"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="EWo-9r-8ES">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="กลุ่มโรค Ehrlichiosis " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nv5-O9-EUO">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0F0-Jb-kM6">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="pdr-wl-EbB" kind="show" id="VMQ-Mh-sho"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZiA-9T-d1R" firstAttribute="top" secondItem="sU1-PU-zhc" secondAttribute="top" id="HJ4-zl-3Zz"/>
+                            <constraint firstItem="xCE-ay-1QC" firstAttribute="width" secondItem="n73-SM-HyI" secondAttribute="width" id="ccN-9K-YTu"/>
+                            <constraint firstItem="sU1-PU-zhc" firstAttribute="bottom" secondItem="ZiA-9T-d1R" secondAttribute="bottom" id="syn-TY-dGv"/>
+                            <constraint firstItem="ZiA-9T-d1R" firstAttribute="leading" secondItem="sU1-PU-zhc" secondAttribute="leading" id="tPl-Mw-luM"/>
+                            <constraint firstItem="sU1-PU-zhc" firstAttribute="trailing" secondItem="ZiA-9T-d1R" secondAttribute="trailing" id="xQq-IC-9LK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sU1-PU-zhc"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKI-WT-uuj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5256.521739130435" y="2965.7608695652175"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ehd-EU-hBJ">
+            <objects>
+                <viewController id="ORB-dd-i56" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="krc-QI-5xQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXl-3H-oOZ">
+                                <rect key="frame" x="0.0" y="20" width="414" height="1236"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WnV-br-yZ4">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ff1" translatesAutoresizingMaskIntoConstraints="NO" id="ss2-e4-Dul">
+                                                <rect key="frame" x="87" y="175" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grz-b8-9YR">
+                                                <rect key="frame" x="8" y="301" width="398" height="613"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">การดูแลสถานที่ในการเลี้ยงดูสุนัข(กรง)อย่างใกล้ชิดจะช่วยให้เจ้าของสุนัขป้องกันอาการบาดเจ็บอันไม่พึงประสงค์หรือการถูกทำร้ายจากสุนัขด้วยกันเอง อีกทั้งยังช่วยให้ความอบอุ่นแก่ร่ายกายสุนัขและความต้องการพื้นฐานทางกายภาพ การดูแลที่นอนให้สุนัขจำเป็นจะต้องมีความแห้งและพื้นที่เพียงพอต่อท่านอนของสุนัข ลุกขึ้น และหมุนตัวได้อย่างสะดวกสบาย ในส่วนของการดูแลระบบระบายอากาศควรจะต้องมีอากาศถ่ายเทสะดวกและมีร่วมเงาที่สามารถช่วยให้สุนัขคลายความร้อนได้  
+
+ผู้ที่เลี้ยงสุนัขหลายตัวควรที่จะต้องทำโรงเรือนอย่างถาวรควรเป็นโรงเรือนที่มีอากาศถ่ายเทได้สะดวกแดดส่องถึงมุมหลังคาด้วยวัสดุกันความร้อน มีความคงทนสามารถทำความสะอาดได้ไม่เปียกชื้อมีช่องระบายน้ำพื้นลาดเท ระบายน้ำได้ดีจึงจะสามารถป้องกันแมลงและยุงหรือปรสิตรบกวนได้  
+
+ในส่วนของภาชนะสำหรับใส่อาหารและน้ำควรจะทำจากวัสดุที่ความสะอาดง่ายทนทานแข็งแรงไม่ควรเป็นจานแบนซึ่งไม่เหมาะแก่การรับประทานอาหารของสุนัข ลักษณะที่ถูกต้องควรจะเป็นทรงสูงขึ้นจากพื้น </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1300" id="bdl-uw-pf3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="WnV-br-yZ4" secondAttribute="bottom" id="H3r-Jb-g50"/>
+                                    <constraint firstItem="WnV-br-yZ4" firstAttribute="top" secondItem="tXl-3H-oOZ" secondAttribute="top" id="YO5-rG-qf8"/>
+                                    <constraint firstAttribute="trailing" secondItem="WnV-br-yZ4" secondAttribute="trailing" id="dmO-zL-Say"/>
+                                    <constraint firstItem="WnV-br-yZ4" firstAttribute="leading" secondItem="tXl-3H-oOZ" secondAttribute="leading" id="qq6-7O-Y8T"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="oqK-Oa-GIu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="การดูแลกรงและระบบถ่ายเท" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59H-1J-ppf">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MdK-7Y-Av1">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="g4f-tR-mus"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5lZ-wK-5XM" firstAttribute="bottom" secondItem="tXl-3H-oOZ" secondAttribute="bottom" id="I7v-fR-4oP"/>
+                            <constraint firstItem="tXl-3H-oOZ" firstAttribute="leading" secondItem="krc-QI-5xQ" secondAttribute="leading" id="LD9-GA-69g"/>
+                            <constraint firstItem="WnV-br-yZ4" firstAttribute="width" secondItem="krc-QI-5xQ" secondAttribute="width" id="kZ1-gP-nml"/>
+                            <constraint firstItem="5lZ-wK-5XM" firstAttribute="trailing" secondItem="tXl-3H-oOZ" secondAttribute="trailing" id="ycw-Mt-SEZ"/>
+                            <constraint firstItem="tXl-3H-oOZ" firstAttribute="top" secondItem="5lZ-wK-5XM" secondAttribute="top" id="yvG-rd-Tgd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5lZ-wK-5XM"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EoF-cd-0Jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2873.913043478261" y="817.66304347826099"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="daX-z6-rYC">
+            <objects>
+                <viewController id="Qap-jG-kmq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QYC-QP-HvE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="introfinal" translatesAutoresizingMaskIntoConstraints="NO" id="Lmg-GE-0zO">
+                                <rect key="frame" x="-13" y="-11" width="441" height="747"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckh-E3-YPj">
+                                <rect key="frame" x="0.0" y="0.0" width="416" height="740"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="VWr-NP-2jL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5Wa-l9-MBq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFC-rc-MgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257.97101449275362" y="92.119565217391312"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0ow-JI-E4d">
+            <objects>
+                <viewController id="Emc-8O-0fI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bB0-Sq-3vO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekD-lz-9yh">
+                                <rect key="frame" x="0.0" y="20" width="414" height="1336"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igC-Cm-Pgk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aa1" translatesAutoresizingMaskIntoConstraints="NO" id="26g-KC-ch2">
+                                                <rect key="frame" x="100" y="175" width="219" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zf-dc-qQp">
+                                                <rect key="frame" x="8" y="301" width="398" height="637"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">    สวัสดิภาพสัตว์ (Animal Welfare) เป็นมาตรฐานขั้นต่ำของคุณภาพชีวิตของสัตว์เลี้ยงที่ควรจะได้รับ ในปัจจุบันจะพบปัญหาการปล่อยสุนัขทิ้งจนกลายมาเป็นสาเหตุของปัญหาอื่นอีกมายมายรวมไปถึงการควบควบคุมโรคพิษสุนัขบ้า ในทางปฏิบัติเจ้าของสุนัขควรที่จะเลี้ยงสุนัขตามทฤษฎีแนวคิดเพื่อชีวิตความเป็นอยู่ที่ดีของสุนัขและประกอบไปด้วยหลักอิสระ 5 ประการ คือ   
+
+    1. อิสระจากความหิวและความกระหาย (freedom from hunger and thirst)  
+
+    2. อสิระจากความรู้สึกไม่สบาย (freedom from discomfort)  
+
+   3. อสิระจากความเจ็บปวด บาดเจ็บ และเป็นโรค (freedom from pain, injury and disease)  
+
+   4. อิสระในการแสดงพฤติกรรมตามปกติ (freedom to express normal behavior)   
+
+   5. อิสระจากความกลัวและความทุกข์ (freedom from fear and distress) </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1300" id="RTS-4c-ZBV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="igC-Cm-Pgk" secondAttribute="trailing" id="HJi-Ja-X2i"/>
+                                    <constraint firstItem="igC-Cm-Pgk" firstAttribute="top" secondItem="ekD-lz-9yh" secondAttribute="top" id="HNK-Zk-s9e"/>
+                                    <constraint firstItem="igC-Cm-Pgk" firstAttribute="leading" secondItem="ekD-lz-9yh" secondAttribute="leading" id="n9g-P1-ITj"/>
+                                    <constraint firstAttribute="bottom" secondItem="igC-Cm-Pgk" secondAttribute="bottom" id="rdW-f7-Biu"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="4hf-C9-90M">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxV-eD-QPA">
+                                <rect key="frame" x="51" y="169" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt;&lt;" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="Mwm-As-KOx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="หลักสวัสดิภาพสัตว์" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJl-II-nFy">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175518134716" blue="0.09115630534739029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ekD-lz-9yh" firstAttribute="bottom" secondItem="77h-lD-vfe" secondAttribute="bottom" id="UMa-K4-IK7"/>
+                            <constraint firstItem="ekD-lz-9yh" firstAttribute="leading" secondItem="bB0-Sq-3vO" secondAttribute="leading" id="f9O-cp-sVw"/>
+                            <constraint firstItem="ekD-lz-9yh" firstAttribute="top" secondItem="77h-lD-vfe" secondAttribute="top" id="l9C-Ap-NaG"/>
+                            <constraint firstAttribute="trailing" secondItem="ekD-lz-9yh" secondAttribute="trailing" id="vK5-IV-XYB"/>
+                            <constraint firstItem="igC-Cm-Pgk" firstAttribute="width" secondItem="bB0-Sq-3vO" secondAttribute="width" id="wdu-Yy-zQp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="77h-lD-vfe"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ax2-ig-ojU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="227" y="-1144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="acH-BG-YNm">
+            <objects>
+                <viewController id="OSs-VC-Thw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8TZ-Zd-Ovr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbg-6S-0tv">
+                                <rect key="frame" x="0.0" y="20" width="414" height="1836"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hO8-Sk-vdq">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1900"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bb1" translatesAutoresizingMaskIntoConstraints="NO" id="b3a-2B-jwJ">
+                                                <rect key="frame" x="100" y="175" width="219" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEc-KQ-s7F">
+                                                <rect key="frame" x="8" y="301" width="398" height="1320"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">การทำวัคซีนในช่วงเวลาที่เหมาะสมที่สุดคือช่วงที่ลูกสุนัขมีระดับภูมิคุ้มกันจากแม่ลดต่ำลงจนระดับภูมิคุ้มกันจากเดิมในร่างกาย ไม่สามารถไปรบกวนการทำงานของวัคซีน ภูมิคุ้มกันจากแม่จะป้องกันโรคได้เพียงประมาณ 6-8 สัปดาห์ หลังจากนั้นระดับภูมิคุ้มกันจะค่อยๆ ลดต่ำลง ซึ่งลูกสุนัขอาจได้รับเชื้อโรค และป่วยเป็นโรคได้ แต่ถ้าฉีดวัคซีนเร็วเกินไประดับภูมิคุ้มกันที่ยังมีอยู่ในลูกสุนัขจะต้านกับเชื้อในวัคซีนและไม่เกิดภูมิคุ้มกันขึ้น ท่านเจ้าของจึงควรให้ลูกสุนัขได้รับการฉีดวัคซีนเมื่ออายุประมาณ 6-8 สัปดาห์  อายุ 4-6 สัปดาห์ ถ่ายพยาธิ และตรวจสุขภาพ 
+
+อายุ 5-6 สัปดาห์ วัคซีน หวัด,  หลอดลมอักเสบติดต่อ, ไข้หัด, ลำไส้อักเสบ และถ่ายพยาธิ 
+
+อายุ 8 สัปดาห์ วัคซีนรวม 5 โรค (ไข้หัด, ลำไส้อักเสบ, ตับอักเสบ, เลปโตสไปโรซิส, หวัด, หลอดลมอักเสบติดต่อ) ครั้งที่ 1  และถ่ายพยาธิตรวจสุขภาพ 
+
+อายุ 10 สัปดาห์ วัคซีนรวม 5 โรค ครั้งที่ 2 และถ่ายพยาธิ ตรวจสุขภาพ 
+
+อายุ 12 สัปดาห์ วัคซีนพิษสุนัขบ้า ครั้งที่ 1 ถ่ายพยาธิ พยาธิหนอนหัวใจ และตรวจสุขภาพ 
+
+อายุ 16 สัปดาห์ วัคซีนลำไส้อักเสบ (กรณีที่มีความเสี่ยง) ถ่ายพยาธิ พยาธิหนอนหัวใจ 
+
+อายุ 24 สัปดาห์ วัคซีนพิษสุนัขบ้า ครั้งที่ 2 ถ่ายพยาธิ พยาธิหนอนหัวใจ 
+
+นอกจากนี้ สุนัขควรได้รับการป้องกันพยาธิหนอนหัวใจทุกๆ เดือน 
+
+ถ่ายพยาธิในลำไส้ทุก 3-6 เดือน กระตุ้นวัคซีนรวม และวัคซีนพิษสุนัขบ้า ปีละครั้ง 
+
+ 
+กรณีการฉีดป้องกันโรคพิษสุนัขบ้าในกรณีที่สุนัขถูกสุนัขบ้ากัดให้พิจารณาดังต่อไปนี้ 
+
+1.กรณีที่ไม่เคยได้รับวัคซีนมาก่อนแล้วถูกสุนัขบ้ากัดให้เจ้าของสุนัขกักสุนัขไว้ดูอาการอย่างน้อย 6 เดือนและทำการฉีดวัคซีนก่อนปล่อยสุนัข 1 เดือนหรือให้ทำลายสุนัขตัวนั้น 
+
+2.สุนัขที่ฉีดวัคซีนประจำได้รับวัคซีนครั้งสุดท้ายไม่เกิน 1 ปี ให้ทำการฉีดวัคซีนอีกหนึ่งเข็มทันทีและให้กักสุนัขไว้ดูอาการ 45 วัน </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1900" id="p2d-iC-FWZ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hO8-Sk-vdq" firstAttribute="top" secondItem="dbg-6S-0tv" secondAttribute="top" id="J8M-Cx-vyM"/>
+                                    <constraint firstAttribute="trailing" secondItem="hO8-Sk-vdq" secondAttribute="trailing" id="PlU-em-2ad"/>
+                                    <constraint firstItem="hO8-Sk-vdq" firstAttribute="leading" secondItem="dbg-6S-0tv" secondAttribute="leading" id="czf-yN-fbC"/>
+                                    <constraint firstAttribute="bottom" secondItem="hO8-Sk-vdq" secondAttribute="bottom" id="gu0-YC-Bzy"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="79p-Q7-p7Q">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โปรแกรมวัคซีน" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QL0-6r-jnb">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0t-ho-hns">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt;&lt;" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="QIg-HP-3uB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hO8-Sk-vdq" firstAttribute="width" secondItem="8TZ-Zd-Ovr" secondAttribute="width" id="4kG-TK-rHK"/>
+                            <constraint firstAttribute="trailing" secondItem="dbg-6S-0tv" secondAttribute="trailing" id="HbW-gr-eVN"/>
+                            <constraint firstItem="Ixx-OH-lQo" firstAttribute="bottom" secondItem="dbg-6S-0tv" secondAttribute="bottom" id="Pfi-Sr-4iO"/>
+                            <constraint firstItem="dbg-6S-0tv" firstAttribute="leading" secondItem="Ixx-OH-lQo" secondAttribute="leading" id="aPI-Sb-avF"/>
+                            <constraint firstItem="dbg-6S-0tv" firstAttribute="top" secondItem="Ixx-OH-lQo" secondAttribute="top" id="qzx-56-faM"/>
+                            <constraint firstItem="hO8-Sk-vdq" firstAttribute="width" secondItem="8TZ-Zd-Ovr" secondAttribute="width" id="tkl-IK-cwd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ixx-OH-lQo"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1900"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gzi-ze-Vsb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="-1309"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R0O-D2-F1z">
+            <objects>
+                <viewController id="MUs-hs-l7o" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dtg-7I-tid">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iYn-fr-d0Z">
+                                <rect key="frame" x="0.0" y="20" width="414" height="2336"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50Q-zh-VXN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2400"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cc1" translatesAutoresizingMaskIntoConstraints="NO" id="qCu-Jl-cM1">
+                                                <rect key="frame" x="100" y="175" width="219" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYl-gd-J1k">
+                                                <rect key="frame" x="8" y="301" width="398" height="1528"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">อาหารเป็นหนึ่งในปัจจัยที่สำคัญที่สุดในการดำรงชีวิตของสุนัข จึงมีความจำเป็นต้องมีการควบคุมสมดุลปริมาณอาหารให้ตรงกับความต้องการของร่างกายตามอุดมคติแต่ในบางสถานการณ์เนื่องจากเจ้าของสุนัขปรุงอาหารด้วยตนเองทำให้อาจจะได้รับสารอาหารไม่เพียงพอต่อความต้องการซึ่งจะนำไปสู่สาเหตุที่ทำให้เกิดปัญหาด้านสุขภาพได้ ในส่วนของน้ำซึ่งเป็นสิ่งที่มีความสำคัญและจำเป็นต้องดูแลตลอดให้น้ำที่สะอาดและเพียงพอเสมอเพราะฉะนั้นตามหลักการให้อาหารสุนัขจึงสามารถแบ่งได้ 5 ประเภท คือ 
+
+1.การให้อาหารสุนัขหลังการคลอด เป็นช่วงที่มีความสำคัญในการเจริญเติบโตของร่างกายสุนัขเป็นอย่างสูงเพราะจะได้รับน้ำนมเหลืองซึ่งเป็นอาหารที่มีคุณค่านอกจากพลังงานที่ได้รับแล้วยังรวมไปถึงภูมิคุ้มกันที่แม่มอบให้สู่ลูกสุนัขอีกด้วย ควรจะให้ลูกสุนัขรับประทานนมแม่จนถึงระยะหย่านมประมาณ 1 เดือนแล้วผู้เลี้ยงควรที่จะให้อาหารเสริมที่มีโปรตีนสูงช่วยในการเสริมสร้างโครงสร้างของร่างกายประกอบโดยการวางใส่ภาชนะทีละเล็กน้อยตามความสามารถในการรับประทานอาหารของลูกสุนัข 
+
+2.การให้อาหารสุนัขหลังหย่านม โดยการให้อาหารสุนัขใส่ภาชนะทีละเล็กน้อยเป็นการช่วยสุนัขหย่านม ควรเริ่มจากนมอุ่นผสมกับน้ำหวานเมื่อลูกสุนัขคุ้นชินเรียบร้อยค่อยพัฒนาอาหารที่มีความหยาบและมีคุณค่าทางอาหารปรุงสุกน่ารับประทานและย่อยง่ายต่อจากนั้นเริ่มแยกแม่สุนัขออกจากลูกสุนัข 
+
+3.การให้อาหารสุนัขโตเต็มที่ เมื่อสุนัขมีอายุมากขึ้นความต้องการอาหารจะน้อยลง ควรให้อาหารเป็นมื้อวันละ 1-2 มื้อตามความสะดวกควรให้อาหารในช่วงเย็นเพื่อลดการรบกวนในเวลากลางคืน แต่ทั้งนี้ต้องคำนึงถึงความต้องการอาหารของสุนัขด้วยถ้าให้อาหารน้อยจนเกินไปสามารถสังเกตได้จากสภาพร่างกายที่ผอมจะสังเกตซี่โครงที่ขึ้นมาตามลำตัวได้ประกอบกับการงดเว้นการให้อาหารที่มีลักษณะเป็นเศษกระดูกที่สามารถเป็นอันตรายแก่ลำไส้ของสุนัขได้ 
+
+4.การให้อาหารสุนัขในขณะตั้งครรภ์ ในระยะดังกล่าวแม่สุนัขมีความจำเป็นที่จะต้องได้รับสารอาหารอย่างสูงในการผลิตน้ำนม ผู้เลี้ยงจึงควรเน้นอาหารจำพวกโปรตีนและน้ำให้เพียงพอในการผลิตน้ำนมของแม่สุนัข ซึ่งอาจส่งผลให้ลูกสุนัขมีน้ำหนักตัวต่ำกว่าเกณฑ์และสามารถเสียชีวิตได้โดยปกติแม่สุนัขต้องการอาการเพิ่ม 10-15% ในรายของสุนัขพันธ์เล็กอาจสูงขึ้นถึง 25 % ควรให้อาหารแม่สุนัขในปริมาณที่พอดีไม่มากจนเกินไปและอัตราการรับประทานอาหารของแม่สุนัขจะมีการลดลงช่วงก่อนคลอด 
+
+5.การให้อาหารสุนัขในวัยชรา 
+โดยปกติวัยชราของสุนัขจะทำให้สุนัขมีความต้องการอาหารลดลง แต่มีความจำเป็นอาหารที่สามารถย่อยได้ง่ายและควรหลีกเลี่ยงอาหารที่มีเกลือและแร่ธาตุฟอสฟอรัสสูงเพื่อลดอัตราการเกิดโรคและการทำงานของไต สามารถเพิ่มอาหารจำพวกพืชผักเข้าไปในอาหารได้ในการดูแลทางด้านโภชนาการของสุนัขวัยชราควรควบคู่ไปกับการออกกำลังกายอย่างเหมาะสมจะช่วยให้สุนัขมีอายุยืนยาวนานยิ่งขึ้น </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2400" id="id0-O4-rFc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="50Q-zh-VXN" firstAttribute="top" secondItem="iYn-fr-d0Z" secondAttribute="top" id="IOf-W0-cws"/>
+                                    <constraint firstAttribute="trailing" secondItem="50Q-zh-VXN" secondAttribute="trailing" id="Ln9-fA-anw"/>
+                                    <constraint firstAttribute="bottom" secondItem="50Q-zh-VXN" secondAttribute="bottom" id="bNh-TW-WWB"/>
+                                    <constraint firstItem="50Q-zh-VXN" firstAttribute="leading" secondItem="iYn-fr-d0Z" secondAttribute="leading" id="qyQ-XL-Q26"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="a6Q-6F-GNd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="การดูแลอาหารและน้ำ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3P-xn-6sL">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.41991175520000001" blue="0.091156305349999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLm-cG-wpB">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="J25-NJ-NK1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gSb-l0-etU" firstAttribute="bottom" secondItem="iYn-fr-d0Z" secondAttribute="bottom" id="mCg-ta-ScF"/>
+                            <constraint firstItem="50Q-zh-VXN" firstAttribute="width" secondItem="dtg-7I-tid" secondAttribute="width" id="oN7-KU-QIw"/>
+                            <constraint firstItem="iYn-fr-d0Z" firstAttribute="top" secondItem="gSb-l0-etU" secondAttribute="top" id="sE7-9A-wux"/>
+                            <constraint firstItem="iYn-fr-d0Z" firstAttribute="trailing" secondItem="gSb-l0-etU" secondAttribute="trailing" id="tPx-dV-Lrb"/>
+                            <constraint firstItem="iYn-fr-d0Z" firstAttribute="leading" secondItem="gSb-l0-etU" secondAttribute="leading" id="zqd-Kp-qbg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gSb-l0-etU"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wyX-vS-DW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1984" y="-1105"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Peg-8D-nmb">
+            <objects>
+                <viewController id="pdr-wl-EbB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j0K-j8-1zG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ubr-0Y-FYx">
+                                <rect key="frame" x="0.0" y="20" width="414" height="1436"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k39-6O-sVk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zei-AC-ACE">
+                                                <rect key="frame" x="8" y="301" width="398" height="399"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <string key="text">สำหรับผู้เลี้ยงสุนัขคงคุ้นเคยกับสำนวนสุภาษิตไทยที่ว่า การไม่มีโรคเป็นลาภอันประเสริฐ การเป็นโรคนำมาซึ่งผลเสียต่างๆมากมายทั้งแก่ตัวสุนัขเองรวมไปถึงเจ้าของอีกด้วย เพราะฉะนั้นการทำความเข้าใจกับโรคต่างๆ ในสุนัขทำให้เจ้าของมีความพร้อมและองค์ความรู้ในการรับมือกับโรคที่พบได้บ่อยในสุนัขพร้อมกับข้อควรปฏิบัติหากเกิดโรคดังกล่าวอีกทั้งโรคที่สามารถตรวจวินิจฉัยได้จากห้องปฏิบัติการ ได้แก่ โรคพิษสุนัขบ้า (Rabies), โรคหัดสุนัข (Canine Distemper), โรคลำไส้อักเสบเนื่องจากเชื้อโคโรนาไวรัส (Canine Colonavirus), โรคลำไส้อักเสบเนื่องจากเชื้อพาร์โวไวรัส (Canine Parvovirus), โรคพยาธิเม็ดเลือดในสุนัข, โรคเลปโทสไปโรซิส (Leptospirosis) และโรคพยาธิหนอนหัวใจ (Heart worm disease) เป็นต้น </string>
+                                                <fontDescription key="fontDescription" name="EkkamaiStandard-Light" family="Ekkamai Standard" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gg1" translatesAutoresizingMaskIntoConstraints="NO" id="Wsm-ya-KNf">
+                                                <rect key="frame" x="100" y="175" width="219" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNj-Ia-tBY">
+                                                <rect key="frame" x="8" y="741" width="276" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- โรคพิษสุนัขบ้า (Rabies)  "/>
+                                                <connections>
+                                                    <segue destination="qms-OI-eaX" kind="show" id="oCI-bV-YUp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YE-FL-PRH">
+                                                <rect key="frame" x="8" y="779" width="236" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- โรคหัดสุนัข (Canine Distemper) "/>
+                                                <connections>
+                                                    <segue destination="094-6v-XSU" kind="show" id="rC6-Xj-GhG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afi-xi-TPd">
+                                                <rect key="frame" x="8" y="817" width="292" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- โรคเลปโทสไปโรซิส (Leptospirosis) "/>
+                                                <connections>
+                                                    <segue destination="nFL-mV-eOQ" kind="show" id="HXf-A4-kDv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlB-h7-CU1">
+                                                <rect key="frame" x="8" y="855" width="211" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- กลุ่มโรค Ehrlichiosis "/>
+                                                <connections>
+                                                    <segue destination="8t2-Y7-FL6" kind="show" id="eax-1f-ML1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="To3-69-C8l">
+                                                <rect key="frame" x="8" y="893" width="222" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- กลุ่มโรค Babesiosis "/>
+                                                <connections>
+                                                    <segue destination="Fnc-yE-h2O" kind="show" id="bVE-Bs-h7A"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oz-hd-Y2e">
+                                                <rect key="frame" x="8" y="931" width="276" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- กลุ่มโรค Hepatozoonosis "/>
+                                                <connections>
+                                                    <segue destination="RDr-et-nfd" kind="show" id="bac-mF-kD0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTN-YM-R33">
+                                                <rect key="frame" x="8" y="969" width="214" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- กลุ่มโรค Haemobartonellosis   "/>
+                                                <connections>
+                                                    <segue destination="g6F-Jl-8JO" kind="show" id="mnF-Eo-KCb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmV-xo-ZHP">
+                                                <rect key="frame" x="8" y="1007" width="204" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- โรคพยาธิหนอนหัวใจ"/>
+                                                <connections>
+                                                    <segue destination="DWA-b6-F7C" kind="show" id="QEl-zH-R6X"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRM-HO-gLR">
+                                                <rect key="frame" x="8" y="1045" width="166" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- โรคลำไส้อักเสบ"/>
+                                                <connections>
+                                                    <segue destination="ZbB-PR-yi7" kind="show" id="D0E-62-Fn7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Yy-rP-qAT">
+                                                <rect key="frame" x="8" y="1083" width="236" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="- โรคพยาธิเม็ดเลือดในสุนัข "/>
+                                                <connections>
+                                                    <segue destination="khJ-hE-7Tb" kind="show" id="NIk-CS-T5i"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="รายการโรคที่ควรป้องกันในสุนัข มีดังนี้." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lk-Qc-ySm">
+                                                <rect key="frame" x="20" y="708" width="337" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="BUY-B1-h0F"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="k39-6O-sVk" firstAttribute="leading" secondItem="Ubr-0Y-FYx" secondAttribute="leading" id="2pI-ah-vBh"/>
+                                    <constraint firstAttribute="trailing" secondItem="k39-6O-sVk" secondAttribute="trailing" id="Dkt-oU-g3h"/>
+                                    <constraint firstItem="k39-6O-sVk" firstAttribute="top" secondItem="Ubr-0Y-FYx" secondAttribute="top" id="H8j-oI-6mt"/>
+                                    <constraint firstAttribute="bottom" secondItem="k39-6O-sVk" secondAttribute="bottom" id="lP2-sm-m26"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bgc" translatesAutoresizingMaskIntoConstraints="NO" id="rGK-Ly-1YD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="โรคที่ควรป้องกันในสุนัข " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebj-h4-Hmt">
+                                <rect key="frame" x="46" y="167" width="322" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Mitr-Regular" family="Mitr" pointSize="20"/>
+                                <color key="textColor" red="0.0039215686269999999" green="0.42352941179999998" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jed-oo-nWU">
+                                <rect key="frame" x="46" y="167" width="18" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="bbb"/>
+                                <connections>
+                                    <segue destination="JgD-gP-Lw1" kind="show" id="XzM-Ql-9ZL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k39-6O-sVk" firstAttribute="width" secondItem="j0K-j8-1zG" secondAttribute="width" id="LZB-44-0fF"/>
+                            <constraint firstItem="Ubr-0Y-FYx" firstAttribute="leading" secondItem="wjA-pP-UJj" secondAttribute="leading" id="Tf2-yz-cIA"/>
+                            <constraint firstItem="wjA-pP-UJj" firstAttribute="bottom" secondItem="Ubr-0Y-FYx" secondAttribute="bottom" id="nwf-8i-fRZ"/>
+                            <constraint firstItem="Ubr-0Y-FYx" firstAttribute="top" secondItem="wjA-pP-UJj" secondAttribute="top" id="uvx-PY-4LV"/>
+                            <constraint firstItem="wjA-pP-UJj" firstAttribute="trailing" secondItem="Ubr-0Y-FYx" secondAttribute="trailing" id="zfO-PO-7mr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wjA-pP-UJj"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lqa-Cb-htT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1185.5072463768117" y="2205.163043478261"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aa1" width="250" height="170"/>
+        <image name="bar2" width="750" height="134"/>
+        <image name="bb1" width="250" height="170"/>
+        <image name="bbb" width="50" height="83"/>
+        <image name="bg" width="750" height="1334"/>
+        <image name="bgc" width="750" height="376"/>
+        <image name="bgc2" width="750" height="1200"/>
+        <image name="bgh" width="472" height="116"/>
+        <image name="btnc11" width="130" height="126"/>
+        <image name="btnc221" width="130" height="126"/>
+        <image name="btnc3" width="130" height="126"/>
+        <image name="btnc4" width="130" height="126"/>
+        <image name="btnc5" width="130" height="126"/>
+        <image name="btnc6" width="130" height="126"/>
+        <image name="btnc7" width="130" height="126"/>
+        <image name="btnc8" width="130" height="126"/>
+        <image name="cc1" width="250" height="170"/>
+        <image name="dd1" width="250" height="170"/>
+        <image name="ee1" width="250" height="170"/>
+        <image name="fb" width="257" height="70"/>
+        <image name="ff1" width="250" height="170"/>
+        <image name="gg1" width="250" height="180"/>
+        <image name="introfinal" width="900" height="1334"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="edk-6d-8dw"/>
+        <segue reference="Ke4-0E-EJn"/>
+        <segue reference="TWZ-Jo-Vve"/>
+    </inferredMetricsTieBreakers>
+</document>
